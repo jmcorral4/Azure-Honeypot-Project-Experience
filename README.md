@@ -11,3 +11,19 @@ Using PowerShell ISE, I ran a script to log the IP addresses of the login attemp
 If I do this again, I’d try setting up alerts in Sentinel to notify me when login attempts happen. I’d also like to deploy some sort of way to defend against the login attempts or ensuring that no one can access the host from the VM.
 
 Overall, this project gave me a good understanding of what goes into detecting suspicious activity in a cloud environment and the importance to have all the monitoring pieces connected and working right.
+
+<h2> Skills learned</h2>
+
+- Deploying Azure Virtual Machines
+- Set up and configured a Windows VM with open RDP access
+- Used Microsoft Sentinel for Log Analysis
+- Connected Sentinel to a Log Analytics Workspace to monitor and review login attemps.
+- Configured Log Analytics Workspace
+- Learned how to link resources properly and enable diagnostic settings for real-time logging
+- PowerShell Script
+- Pulled the script and ran it to then receive the log of failed RDP attempts.
+- Troubleshooting Azure logging issues
+- Fixed broken log connections, misconfigured diagnostics, and data connectors from Microsoft Defender for cloud
+- Understanding SIEM Tool navigation
+- Cloud Monitoring and threat detections basics
+- Got the opportunity to mess with the tools to see what a SOC analyst might see.
