@@ -38,7 +38,7 @@ SecurityEvent<br/>
 
 This also gave me the opportunity to add Alert enhancements into the entity mapping so that Sentinel would better recognize and classify the data for further analysis. I added Account (Fullname, Account), IP (Address, IpAddress), Host (Hostname, Computer). Once I added this I was able to change the query schedule to run every 5 minutes and look back at the data from the last 30 minutes. It grouped related alerts together. I was able to see how quickly RDP attacks came once I started my VM after having it turned off for a few days.
 
-Being able to see the incidents was important because when viewing in full detail you get the option to <ins>Investigate and use any Incident Actions</ins>. Incident Action options are currently "Run Playbook", "Create Automation Rule", and "Create Team". The cool thing is when you investigate you get to see the attack mapped!
-![image](https://github.com/user-attachments/assets/de691a3c-1e1d-42da-930b-e8a0e37fd9dc)
-![image](https://github.com/user-attachments/assets/36af93e0-ab29-4cff-b21d-4bf33ada2a41)
-![image](https://github.com/user-attachments/assets/ac4608b6-6660-4ef9-8265-2a93d3384032)
+Being able to see the incidents was important because when viewing in full detail you get the option to <ins>Investigate and use any Incident Actions</ins>. Incident Action options are currently "Run Playbook", "Create Automation Rule", and "Create Team". The cool thing is when you investigate you get to see the attack being mapped out!
+![Incidents Sentinel](https://github.com/user-attachments/assets/497e4f4a-a401-4499-b79d-e24032154ac1)
+![Investigate and incidents](https://github.com/user-attachments/assets/7321cfdf-99e9-4d44-aec8-fd1da62ad5d0)
+![Mapped out attack](https://github.com/user-attachments/assets/322b4fdc-b785-4bc0-931d-c540a15c7dd2)
