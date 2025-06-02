@@ -29,7 +29,7 @@ If I do this again, I’d try setting up alerts in Sentinel to notify me when lo
 Overall, this project gave me a good understanding of what goes into detecting suspicious activity in a cloud environment and the importance to have all the monitoring pieces connected and working right.
 
 <h2> Update 06/02/2025:</h2>
-  I was able to update Incidents on the Sentinel by adding a scheduled query rule. The query was<br/>
+  I was able to update Incidents on the Sentinel by adding a scheduled query rule. The query was KQL<br/>
 SecurityEvent<br/>
 | where EventID == 4625<br/>
 | project TimeGenerated, EventID, WorkstationName, LogonTypeName, Account, Computer, IpAddress<br/>
